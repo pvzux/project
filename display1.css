@@ -1,0 +1,113 @@
+/* testing.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #fff;
+    color: rgb(160, 119, 161);
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 22px;
+}
+
+nav {
+    background-color: rgb(160, 119, 161);
+    color: #fff;
+    list-style: none;
+    justify-content: space-evenly;
+    display: flex;
+    padding: 6px 7px;
+    font-size: 18px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none; 
+}
+
+.hero {
+    text-align: center;
+    padding: 50px;
+}
+
+.centered {
+    position: absolute;
+    top: 100%;
+    left: 50%;  
+    transform: translate(-50%, -50%);
+    font-size: 25px;
+    color: rgb(160, 119, 161);
+}
+
+.container {
+    background-color: white;
+    color: rgb(160, 119, 161);
+    padding: 40px;
+    border-radius: 10px;
+    text-align: center;
+    max-width: 700px;
+    margin: 0 auto;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 8px rgb(160, 119, 161);
+}
+
+.image-container {
+    flex: 1;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+}
+
+.text-container {
+    flex: 2;
+    padding: 20px;
+    font-size: 25px;
+}
+
+ul {
+    text-align: left;
+    color: rgb(160, 119, 161);
+    font-size: 18px;
+}
+
+.button {
+    padding: 50px 140px;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    height: 9vh;
+}
+
+.book-button {
+    padding: 30px 60px;
+    font-size: 24px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(160, 119, 161);
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.book-button:hover {
+    background-color: rgb(140, 99, 141);
+}
+
+.containerr {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px auto;
+    max-width: 1000px;
+}
+

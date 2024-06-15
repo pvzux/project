@@ -1,0 +1,62 @@
+/* Basic styling, adjust as needed */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #fff;
+    color: blue;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav {
+    background-color: blue;
+    color:#fff;
+    list-style: none;
+    justify-content:space-evenly;
+    display: flex;
+    padding: 6px 7px;
+}
+
+nav a {
+    color:#fff;
+}
+
+.hero {
+    text-align: center;
+    padding: 50px;
+    background: url('hero-image.jpg') center/cover no-repeat;
+    color: black;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: blue;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+    color: blue;
+  }
+  
+/* Additional styling for other sections, footer, etc. */
